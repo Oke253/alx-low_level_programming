@@ -2,11 +2,12 @@
 
 /**
  * print_last_digit - print the last digit
- * @int: the number to be checked
+ * @n: the number to be checked
+ *
  * Return: value of the last digit
  */
 
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int last_digit = n % 10;
 
